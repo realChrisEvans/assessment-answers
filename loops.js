@@ -96,3 +96,19 @@ for (let i = 1; i <= n; i++) {
 }
 console.log("The sum of squares is " + sum);
 
+// Write a program to convert a decimal number into binary.
+
+let n = +prompt("Enter the number");
+let sum = 0;
+
+while (n > 0) {
+    sum = sum + n % 2;
+    n = Math.floor(n / 2);
+}
+console.log("The binary number is " + sum);
+
+for (let i = 1; i <= n; i++) {
+    sum = sum + i % 2;
+    console.log(i % 2);
+}
+console.log("The binary number is " + sum);
