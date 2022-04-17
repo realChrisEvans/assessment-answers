@@ -153,3 +153,23 @@ else {
 
 console.log("The month is " + month);
 
+//  Write a program to calculate profit and loss on a transaction. 
+
+let cost = +prompt("Enter the cost");
+let sale = +prompt("Enter the sale");
+
+if (sale > cost) {
+    console.log("Profit is " + (sale - cost));
+}
+else if (sale < cost) {
+    console.log("Loss is " + (cost - sale));
+}   
+else {                               
+    console.log("No profit or loss");
+}
+
+console.log("Cost: " + cost);
+console.log("Sale: " + sale);
+console.log("Profit: " + (sale - cost));
+console.log("Loss: " + (cost - sale)); 
+
