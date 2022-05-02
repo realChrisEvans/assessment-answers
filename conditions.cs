@@ -61,7 +61,7 @@ namespace CSharpExercies.Exercises.Conditional_statements
 
 using System;
 
-namespace CSharpExercises
+namespace CSharpExercises.Exercises.Conditional_statements
 {
     class Program
     {
@@ -103,6 +103,61 @@ namespace CSharpExercises.Exercises.Conditional_statements
             Console.WriteLine(IfGreaterThanThirdOne(new int[] { 10, 5, 22 }));     // True
             Console.WriteLine(IfGreaterThanThirdOne(new int[] { -15, -25, 100 })); // True
             Console.WriteLine(IfGreaterThanThirdOne(new int[] { 11, 15, 166 }));   // False
+        }
+    }
+}
+
+// Given an integer, write a method that checks if it is even.
+
+// Expected input and output
+// IfNumberIsEven(721) → false
+// IfNumberIsEven(1248) → true
+
+using System;
+
+namespace CSharpExercises.Exercises.Loops
+{
+    class IfNumberIsEvenTask
+    {
+        static bool IfNumberIsEven(int num)
+        {
+            return num % 2 == 0;
+        }
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine(IfNumberIsEven(8));          // True
+            Console.WriteLine(IfNumberIsEven(54749));      // False
+            Console.WriteLine(IfNumberIsEven(-43234670));  // True
+            Console.WriteLine(IfNumberIsEven(0));          // True
+            Console.WriteLine(IfNumberIsEven(-950541901)); // False
+            Console.WriteLine(IfNumberIsEven(2140872324)); // True
+        }
+    }
+}
+
+// Given an array of three integers, write a method that checks if they are sorted in ascending order. 
+
+// Expected input and output
+// IfSortedAscending([3, 7, 10])→ true
+// IfSortedAscending([74, 62, 99])→ false
+
+using System;
+
+namespace CSharpExercises.Exercises.Conditional_statements
+{
+    class IfSortedAscendingTask
+    {
+        static bool IfSortedAscending(int[] arr)
+        {
+            return arr[0] <= arr[1] && arr[1] <= arr[2];
+        }
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine(IfSortedAscending(new int[] { 3, 6, 9 })); // True
+            Console.WriteLine(IfSortedAscending(new int[] { 34, 17, 90 })); // False
+            Console.WriteLine(IfSortedAscending(new int[] { -50, -24, -1 })); // True
         }
     }
 }
