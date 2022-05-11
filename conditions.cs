@@ -29,7 +29,6 @@ namespace CSharpExercies.Exercises.Conditional_statements
 // DivisibleBy2or3: (2, 90) => 180
 // DivisibleBy2or3: (7, 12) => 19
 
-using System;
 
 namespace CSharpExercies.Exercises.Conditional_statements
 {
@@ -59,8 +58,6 @@ namespace CSharpExercies.Exercises.Conditional_statements
 // IfConsistsOfUppercaseLetters("DOG") → true
 // IfConsistsOfUppercaseLetters("L9#") → false
 
-using System;
-
 namespace CSharpExercises.Exercises.Conditional_statements
 {
     class Program
@@ -86,8 +83,6 @@ namespace CSharpExercises.Exercises.Conditional_statements
 // IfGreaterThanThirdOne([2, 7, 12]) → true
 // IfGreaterThanThirdOne([-5, -8, 50]) → false
 
-using System;
-
 namespace CSharpExercises.Exercises.Conditional_statements
 {
     class IfGreaterThanThirdOneTask
@@ -112,8 +107,6 @@ namespace CSharpExercises.Exercises.Conditional_statements
 // Expected input and output
 // IfNumberIsEven(721) → false
 // IfNumberIsEven(1248) → true
-
-using System;
 
 namespace CSharpExercises.Exercises.Loops
 {
@@ -141,8 +134,6 @@ namespace CSharpExercises.Exercises.Loops
 // Expected input and output
 // IfSortedAscending([3, 7, 10])→ true
 // IfSortedAscending([74, 62, 99])→ false
-
-using System;
 
 namespace CSharpExercises.Exercises.Conditional_statements
 {
