@@ -1,5 +1,5 @@
 # assessment-answers
 
-### A collection of assessment questions and answers I've gathered from mentors/peers/etc. 
+Just a collection of JavaScript, and C# problems and their solutions.
 
-### Feel free to add anything or help in anyway. I want this to grow into a helpful learning tool for all to learn programming.
+Feel free to fork this and add your own if you'd like.
