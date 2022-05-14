@@ -28,3 +28,22 @@ while n > 0:
     count += 1
 print("Total number of digits in", 57830, "is:", count)
 
+# Print list in reverse order using a loop.
+
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for i in range(len(list)-1, -1, -1):
+    print(list[i])
+
+# Display numbers from -10 to -1 using for loop.
+
+for num in range (-10, 0):
+    print(num)
+
+# Use else block to display a message “Done” after successful execution of for loop.
+
+for i in range(5):
+    print(i)
+else:
+    print("Done")
+
+    
